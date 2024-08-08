@@ -43,6 +43,16 @@
   border: 1px solid #f43f5e;
 }
 
+.bg-holiday {
+  background-color: #69b4ff8a;
+  border: 1px solid #0077cc;
+}
+
+.bg-weekend {
+  background-color: #c3aed6; /* Soft purple for a relaxing weekend vibe */
+  border: 1px solid #431a63; /* Slightly darker purple for the border */
+}
+
 .bg-default {
   background-color: #ebedf0;
   color: black;

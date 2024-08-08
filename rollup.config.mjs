@@ -3,7 +3,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
 import postcss from 'rollup-plugin-postcss';
-import packageJson from './package.json' assert { type: 'json' };
+import fs from 'fs';
+const packageJson = JSON.parse(fs.readFileSync('./package.json', { encoding: 'utf8' }));
 
 export default [
   {
